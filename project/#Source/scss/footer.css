@@ -1,0 +1,212 @@
+.footer__inner {
+  border-top: 1px solid #f4f4f4;
+  padding-top: 90px;
+}
+
+.footer__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__clabs {
+  width: 50%;
+  margin-bottom: 130px;
+}
+
+.footer__clabs-title {
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+.footer__clabs-title_span {
+  font-weight: 700;
+}
+
+.footer__clabs-text {
+  font-size: 14px;
+  margin-bottom: 30px;
+  max-width: 270px;
+}
+
+.footer__clabs-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 270px;
+}
+
+.footer__clabs-items_item {
+  margin-right: 5px;
+}
+
+.footer__clabs-items_item:last-child {
+  margin-right: 0;
+}
+
+.footer__clabs-img {
+  width: 20px;
+  height: 20px;
+}
+
+.footer__answers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+}
+
+.footer__answers-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 2;
+  margin-right: 60px;
+}
+
+.footer__answers-item_title {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000;
+}
+
+.footer__answers-item_link {
+  color: #8c8f94;
+}
+
+.footer__answers-item:last-child {
+  margin-right: 0;
+}
+
+.footer__bottom {
+  border-top: 1px solid #f4f4f4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 0;
+}
+
+.footer__bottom-more {
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.footer__bottom-more_link {
+  color: blue;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.footer__bottom-made {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 9px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.footer__bottom-made_logo {
+  margin-left: 10px;
+  margin-top: -15px;
+}
+
+.footer-appStore-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 12px;
+  color: #fff;
+  background-color: #000;
+  max-width: 145px;
+  max-height: 42px;
+  padding: 5px;
+  border-radius: 5px;
+  line-height: 1;
+  margin-bottom: 40px;
+}
+
+.footer-appleLogo {
+  width: 25px;
+  height: 25px;
+}
+
+.footer-appStore {
+  font-size: 20px;
+}
+
+@media (max-width: 992px) {
+  .footer__inner {
+    padding-top: 0px;
+  }
+  .footer__main {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .footer__clabs {
+    margin-bottom: 50px;
+  }
+  .footer__bottom {
+    margin-top: 50px;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer__main {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-left: 20px;
+  }
+  .footer__answers {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .footer__bottom {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .footer__bottom-more {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 465px) {
+  .footer__answers-item {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .footer__clabs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=footer.css.map */
