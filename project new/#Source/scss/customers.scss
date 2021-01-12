@@ -138,21 +138,7 @@
 	left: 10px;
 }
 
-@media (max-width: 600px) {
-	.customers {
-		&__item-text{
-			max-width: 70%;
-					
-		}
-	}
-	.customers .slick-slide{
-		display: none;
-	}
 
-	.customers .slick-center{
-		display: block;
-	}
-}
 
 @media (max-width: 992px) {
 	.customers .container{
@@ -167,3 +153,13 @@
 	}
 }
 
+@media (max-width: 767px) {
+	.customers {
+		&__item-text{
+			max-width: 70%;		
+		}
+	}
+	#customers_carousel1{
+		opacity: 1;
+	}
+}
